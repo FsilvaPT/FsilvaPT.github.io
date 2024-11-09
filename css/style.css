@@ -10104,6 +10104,7 @@ h5 + .list-popular-product {
 	overflow: hidden;
 	margin-bottom: 30px;
 	margin-top: 0;
+	
 }
 
 .cta-box-wrap .list-marked-2:hover img {
@@ -10113,6 +10114,8 @@ h5 + .list-popular-product {
 
 .cta-box-wrap .list-marked-2 img {
 	transition: all ease .35s;
+	object-fit: cover;
+	height: 380px;
 }
 
 @media (min-width: 768px) {
