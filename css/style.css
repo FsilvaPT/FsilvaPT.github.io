@@ -24691,3 +24691,53 @@ img.mfp-img {
 		display: none;
 	}
 }
+
+.timeline {
+	position: relative;
+	margin: auto;
+	margin-top: 60px;
+}
+
+.timeline::after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	background-color: #333;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -3px;
+}
+
+.timeline-event {
+	padding: 10px 20px;
+	background-color: white;
+	border-radius: 6px;
+	width: 45%;
+	position: relative;
+	left: 50%;
+	margin: 10px 0;
+}
+
+.timeline-event.left {
+	left: 0;
+}
+
+.timeline-event.right {
+	left: 50%;
+}
+
+.timeline-event h3 {
+	margin: 0;
+	color: #333;
+}
+
+.timeline-event p {
+	margin: 5px 0;
+	color: #666;
+}
+
+.date {
+	font-weight: bold;
+	font-size: 1.2em;
+}
