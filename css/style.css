@@ -24327,10 +24327,8 @@ Version: 3.5.4 Timestamp: Sun Aug 30 13:30:32 EDT 2015
 	min-height: 1em;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
-	<<<<<<< Tabnine <<<<<<< -moz-user-select: none; //-
-	-moz-user-select: none; //+
-	user-select: none; //+
-	>>>>>>>Tabnine>>>>>>> // {"conversationId":"6977051e-1e32-4f2f-bd23-47ecf0aa6bbd","source":"instruct"}
+	-moz-user-select: none;
+	user-select: none;
 	-ms-user-select: none;
 	user-select: none;
 }
