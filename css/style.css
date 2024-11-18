@@ -26101,28 +26101,82 @@ screen and (max-height: 300px) {
 	object-fit: cover;
 }
 
-.travel-plan-dropdown {
-	position: relative;
-	display: inline-block;
-	cursor: pointer;
-	margin-bottom: 10px;
+.custom-title{
+	text-align: center;
 }
 
-.dropdown-content {
+.about-text{
+	text-align: center;
+}
+
+.about-page-title {
+    font-size: 24px; /* Tamanho da fonte do título */
+    color: #333; /* Cor do texto */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+.about-page-text {
+	font-size: 1.1em;
+	line-height: 1.6;
+	margin: 15px 0;
+}
+.about-page-list {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove espaçamento padrão */
+}
+.about-page-dropdown {
+    margin-bottom: 15px; /* Espaçamento entre dropdowns */
+}
+.about-page-dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #f9f9f9;
-	min-width: 300px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	background-color: #fff;
+	border: 1px solid #ccc;
 	z-index: 1;
+	width: 300px;
 }
-
-.travel-plan-dropdown:hover .dropdown-content {
+.about-page-dropdown:hover .about-page-dropdown-content {
 	display: block;
 }
+.about-page-image {
+	width: 100%;
+	height: auto;
+	margin: 20px 0;
+}
 
-.dropdown-content iframe {
-	width: 300px;
-	height: 200px;
-	border: 0;
+.about-page-dropdown-button {
+    background-color: #007BFF; /* Cor de fundo azul */
+    color: white; /* Cor do texto */
+    padding: 12px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    width: 100%; /* Largura total do contêiner */
+    text-align: left; /* Alinhamento do texto à esquerda */
+}
+
+.about-page-dropdown-button:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+.about-page-dropdown-content {
+    margin-top: 5px; /* Espaçamento acima do iframe */
+    border: 1px solid #ddd; /* Borda do iframe */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #f9f9f9; /* Cor de fundo do conteúdo */
+    display: none; /* Inicialmente escondido */
+}
+
+
+.about-page-list {
+	list-style-type: none; /* Remove marcadores da lista */
+	padding: 0; /* Remove espaçamento padrão */
+}
+
+iframe {
+    width: 100%; /* Largura total do iframe */
+    height: 300px; /* Altura do iframe */
+    border: none; /* Sem borda */
 }
