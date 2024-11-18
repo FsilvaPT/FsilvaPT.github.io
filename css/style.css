@@ -20656,9 +20656,14 @@ h3+.isotope-filters {
 
 .tab-content>.tab-pane {
 	display: flex;
+	flex-direction: column;
 	visibility: hidden;
 	height: 0;
 	overflow: hidden;
+}
+
+.force-row{
+	@import make-row();
 }
 
 .tab-content>.tab-pane.active {
