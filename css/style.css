@@ -20655,7 +20655,7 @@ h3+.isotope-filters {
 }
 
 .tab-content>.tab-pane {
-	display: block;
+	display: flex;
 	visibility: hidden;
 	height: 0;
 	overflow: hidden;
@@ -20664,6 +20664,11 @@ h3+.isotope-filters {
 .tab-content>.tab-pane.active {
 	height: auto;
 }
+
+.break {
+	flex-basis: 100%;
+	height: 0;
+  }
 
 .ios .tab-height,
 .mac-os .tab-height {
@@ -20683,9 +20688,7 @@ h3+.isotope-filters {
 	overflow: visible;
 }
 
-.tab-content>.active2 {
-	visibility: visible;
-}
+
 
 *+.tabs-line {
 	margin-top: 24px;
