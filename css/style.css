@@ -20683,6 +20683,10 @@ h3+.isotope-filters {
 	overflow: visible;
 }
 
+.tab-content>.active2 {
+	visibility: visible;
+}
+
 *+.tabs-line {
 	margin-top: 24px;
 }
