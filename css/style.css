@@ -7597,11 +7597,13 @@ textarea.textarea-lg {
 
 .thumbnail-mary-figure {
 	display: block;
+
 }
 
 .thumbnail-mary-figure img {
 	width: 100%;
 	transition: all .3s ease;
+	object-fit: cover;
 }
 
 .thumbnail-mary-caption {
