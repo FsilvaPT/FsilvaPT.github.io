@@ -2052,7 +2052,7 @@
     autofocusVideos: true,
     descPosition: 'bottom',
     width: '900px',
-    height: '506px',
+    height: '850px',
     videosWidth: '960px',
     beforeSlideChange: null,
     afterSlideChange: null,
