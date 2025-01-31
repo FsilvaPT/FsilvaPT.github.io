@@ -637,6 +637,17 @@ section,
   padding-top: 10px;
 }
 
+.desenvolvimento h3{
+  margin: top 20px;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.desenvolvimento p{
+  margin: bottom 20px;
+  gap: 10px;
+  padding-bottom: 10px;
+}
 
 /*--------------------------------------------------------------
 # About Section
